@@ -1,0 +1,12 @@
+
+.item img, .item-active img {
+	min-width: 100%;
+	height: 80%;
+}
+.navbar, .navbar-default {
+	margin: 0;
+}
+.navbar-fixed-top {
+	position: sticky;
+	z-index: 50;
+}

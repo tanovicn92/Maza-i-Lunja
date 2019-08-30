@@ -1,0 +1,107 @@
+* {	box-sizing: border-box;}
+html{
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	margin: 0;
+	background-image: linear-gradient(#fff,#fff,#fff,#fff,#fff,#fff,#E6E6FA,#E6E6FA,#E6E6FA,#D8BFD8, #E6E6FA, #222,#222);
+}
+nav h2 {
+	display: none;
+}
+h1 small {
+	color:#800080;
+	display: inline-block;
+}
+footer {
+	background-color: #444;
+	color: #E6E6FA;
+}
+a {
+	text-decoration: none;
+	color: #800080;
+}
+input, textarea, .futer-dugme {
+	color: #800080;
+	font-weight: bold;
+	width: 100%;
+	border: 1px solid #800080;
+	box-shadow: 0;
+}
+input:focus, textarea:focus {
+	background-color: #D8BFD8;
+}
+.futer-dugme {
+	background-color: #D8BFD8;
+	border: 2px solid transparent;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.futer-dugme:hover {
+	background-color: #E6E6FA;
+	border: 2px solid #800080;
+}
+
+.border_0 {
+	border: 0;
+
+}
+.front-galerija {
+	margin: 0 auto;
+	padding: 5px;
+	overflow: auto;
+	width: 80%
+}
+.viber_mali, .wa_mali {
+	display: inline;
+	height: 16px;
+	width: 16px;
+	float: right;
+}
+@media(min-width: 440px) {
+	.viber_mali, .wa_mali {
+		height: 32px;
+		width: 32px;
+	}
+}
+.veci_font {
+	display: inline;
+	font-size: 2em;
+	vertical-align: text-bottom;
+}
+.navbar, .navbar-default {
+	position: sticky;
+	top: 0;
+	border-top: 1px solid #800080;
+	border-bottom: 2px solid #800080;
+	z-index: 50;
+}
+.foter-donji-deo {
+	background-color: #E6E6FA;
+	color: #800080;
+	margin: 0 -15px !important;
+}
+/*---------Bootstrap gazenje koda---------*/
+.navbar-default .navbar-nav>li>a:hover,
+.dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav>.open>a:hover {
+	color: #800080;
+}
+.thumbnail, .thumbnail1, .thumbnail2 {
+	background-color: inherit;
+	margin-top: 25px;
+	border: 1px solid #800080;
+	box-shadow: 5px 5px #800080;
+	max-width: 95%;
+}
+.row {
+	margin: 1%;
+}
+.modal-dialog {
+	width: 60%;
+}
+.navbar-nav>li>.dropdown-menu {
+	z-index: 1200;
+}
+/*---------Bootstrap gazenje koda---------*/

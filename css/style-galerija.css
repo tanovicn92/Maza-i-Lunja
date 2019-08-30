@@ -1,0 +1,67 @@
+	.hide-bullets {
+		list-style:none;
+		margin-left: -40px;
+		margin-top:20px;
+	}
+
+	.thumbnail {
+		padding: 0;
+		height: 200px;
+		border: 1px solid transparent !important;
+	}
+	.thumbnail img {
+		max-height: 188px
+	}
+	.thumbnail:hover {
+		border: 3px solid #800080 !important;
+	}
+	.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+		width: 100%;
+		overflow: auto;
+		background-size: cover;
+		max-height: 600px;
+	}
+
+	#slider, #slider1, #slider2 {
+		display: none;
+		max-width: 90%;
+		max-height: 600px;
+		margin: 35px 5%;
+		z-index: 1100;
+	}
+	@media(min-width: 440px){
+		#slider, #slider1, #slider2 {max-width: 65%; 
+			margin:35px 17%;}
+	}
+	.zatvori, .zatvori1, .zatvori2 {
+		cursor: pointer;
+		overflow: auto;
+	}
+
+	/*------GAZIMO JQUERY-UI ---------*/
+	.ui-widget.ui-widget-content {
+    border: 1px solid #800080;
+	}
+	.ui-widget-header {
+    background-color: #D8BFD8 !important; 
+    border: 1px solid #800080;
+    }	
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+	background-color: #800080;
+}
+.ui-widget {
+	margin-top: 50px;
+}
+.ui-state-active,
+ .ui-widget-header .ui-state-active,
+ a.ui-button:active,
+  .ui-button:active,
+  a.ui-button:focus,
+  .ui-button:focus,
+   .ui-button.ui-state-active:hover {
+    border-top: 2px solid #800080 !important;
+    border-left: 2px solid #800080 !important;
+    border-right: 2px solid #800080 !important;
+    outline: none !important;
+    text-decoration: none !important;
+}
